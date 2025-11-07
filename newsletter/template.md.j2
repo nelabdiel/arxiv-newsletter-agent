@@ -1,0 +1,21 @@
+# newsletter/template.md.j2
+
+# Quantum ArXiv — {{ date }}
+
+{% if clusters|length == 0 %}
+_No new quantum papers in the last {{ since_hours }} hours._
+{% else %}
+{% for c in clusters %}
+## {{ c.topic }}
+
+**Advances today (scientific):**
+{{ c.science }}
+
+**Big picture (science communication):**
+{{ c.comms }}
+
+**Citations:** {{ c.citations }}
+
+---
+{% endfor %}
+{% endif %}

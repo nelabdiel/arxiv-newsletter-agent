@@ -1,0 +1,54 @@
+# --- Project-specific ---
+mcp_server/
+mcp_servers/
+output/
+
+# --- Ignore ALL dotfiles (e.g., .env, .python-version, .DS_Store) ---
+.*
+!.gitignore
+!.gitattributes
+# If you want to KEEP these, uncomment the lines below:
+# !.env.example
+# !.github/
+
+# --- Python cache/artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Packaging / build ---
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+.Python
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+
+# --- Jupyter ---
+*.ipynb
+.ipynb_checkpoints/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+

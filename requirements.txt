@@ -1,0 +1,9 @@
+arxiv
+langgraph
+langchain
+langchain-community
+sentence-transformers
+scikit-learn
+jinja2
+python-dotenv
+pydantic
