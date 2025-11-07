@@ -1,7 +1,7 @@
 # --- Project-specific ---
 mcp_server/
 mcp_servers/
-output/
+
 
 # --- Ignore ALL dotfiles (e.g., .env, .python-version, .DS_Store) ---
 .*
